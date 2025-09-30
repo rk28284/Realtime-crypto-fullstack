@@ -70,7 +70,7 @@ npm install</code></pre>
 PORT=5000</code></pre>
 
   <p>Import trades CSV data into MongoDB (option 1 — mongoimport):</p>
-  <pre><code>mongoimport --uri="mongodb://localhost:27017/pumpfun" --collection=trades --type=csv --file=trades_data.csv --headerline</code></pre>
+  <pre><code>mongoimport --uri="mongodb://localhost:27017/crypto"</code></pre>
   <p>Or use the Node.js script provided in <code>scripts/importCsvToMongo.js</code>.</p>
 
   <p>Start backend server:</p>
