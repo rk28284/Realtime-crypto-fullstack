@@ -27,8 +27,6 @@
     </ul>
     <li><a href="#csv-upload-guide">CSV Upload Guide</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ul>
 
@@ -83,7 +81,7 @@ PORT=5000</code></pre>
 npm install</code></pre>
 
   <p>Configure API URL in <code>frontend/.env</code> if needed:</p>
-  <pre><code>REACT_APP_API_URL=http://localhost:5000</code></pre>
+  <pre><code>REACT_APP_API_URL=http://localhost:8080</code></pre>
 
   <p>Start the frontend:</p>
   <pre><code>npm start</code></pre>
@@ -104,11 +102,7 @@ npm install</code></pre>
     <li>Current price and RSI are shown at the top.</li>
   </ul>
 
-  <h2 id="contributing">Contributing</h2>
-  <p>Pull requests and issues are welcome. For major changes, please open an issue to discuss what you would like to change.</p>
 
-  <h2 id="license">License</h2>
-  <p>MIT</p>
 
   <h2 id="acknowledgements">Acknowledgements</h2>
   <ul>
