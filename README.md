@@ -54,7 +54,7 @@
 
   <h3 id="prerequisites">Prerequisites</h3>
   <ul>
-    <li>Node.js (v18 or above recommended)</li>
+    <li>Node.js (v21 or above recommended)</li>
     <li>MongoDB instance (local or cloud)</li>
     <li>npm or yarn</li>
   </ul>
