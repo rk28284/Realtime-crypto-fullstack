@@ -10,7 +10,7 @@ const {
 const authentication = require("../middleware/auth.middleware");
 
 // Get all trades
-tradeRouter.get("/trade", authentication, getAllTrades);
+tradeRouter.get("/trade", getAllTrades);
 
 // Get a single trade by ID
 tradeRouter.get("/trade/:id", authentication, getTradeById);
